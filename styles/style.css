@@ -5,6 +5,11 @@
     padding: 92px 50px 96px;
 }
 
+.header-active-button-nocircle
+.header-menu-link {
+    text-decoration: none;
+}
+
 .header-active-button-nocircle {
     list-style: none;
 }
@@ -12,7 +17,6 @@
 .header-logo img {
     display: block;
     width: 130px;
-    /*height: 105px;*/
 }
 
 .header-menu-list {
