@@ -47,7 +47,7 @@
     position: relative;
     min-height: 757px;
     background: url('../images/cover.jpg') center/cover no-repeat;
-    padding: 165px 50px 207px;
+    padding: 165px 50px 50px;
 }
 
 .overlay {
@@ -56,18 +56,14 @@
     background-color: rgba(0, 0, 0, 0.6);
 }
 .cover-title {
-    position: absolute;
-    width: 1000px;
-    height: 385px;
-    top: 165px;
-    left: 50px;
+    position: relative;
     text-transform: uppercase;
     color: #fff;
     font-size: 100px;
     font-weight: 700;
     line-height: 1.15;
     letter-spacing: 0.3em;
-    row-gap: 16px;
+    gap: 16px;
     display: flex;
     flex-direction: column;
 }
@@ -83,14 +79,10 @@
 
 .cover-row-center {
     text-align: center;
-    margin: 0;
-    padding-left: 32px;
-    padding-top: 10px;
 }
 
 .cover-row-right {
     text-align: right;
-    padding: 4px 50px 200px 615px;
 }
 
 .cover-description {
