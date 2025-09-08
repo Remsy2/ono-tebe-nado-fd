@@ -47,7 +47,7 @@
     position: relative;
     min-height: 757px;
     background: url('../images/cover.jpg') center/cover no-repeat;
-    padding: 165px 50px 50px;
+    padding: 165px 50px 207px;
 }
 
 .overlay {
@@ -56,14 +56,18 @@
     background-color: rgba(0, 0, 0, 0.6);
 }
 .cover-title {
-    position: relative;
+    position: absolute;
+    width: 1000px;
+    height: 385px;
+    top: 165px;
+    left: 50px;
     text-transform: uppercase;
     color: #fff;
     font-size: 100px;
     font-weight: 700;
     line-height: 1.15;
     letter-spacing: 0.3em;
-    gap: 16px;
+    row-gap: 16px;
     display: flex;
     flex-direction: column;
 }
@@ -79,10 +83,14 @@
 
 .cover-row-center {
     text-align: center;
+    margin: 0;
+    padding-left: 32px;
+    padding-top: 10px;
 }
 
 .cover-row-right {
     text-align: right;
+    padding: 4px 50px 200px 615px;
 }
 
 .cover-description {
@@ -125,21 +133,22 @@
         font-size: 40px;
         font-weight: 700;
         text-transform: uppercase;
-        margin-bottom: 27px;
-        padding-left: 0;
+        margin-bottom: 32px;
+        padding-left: 14px;
     }
 
 .lots-card-list {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row;
     gap: 25px;
+    justify-content: flex-start;
+    margin-left: -20px;
 }
 
 .lots-card-list-item {
-    min-height: 450px;
+    width: 334px;
+    height: 596px;
 }
 
 .card-link {
@@ -178,7 +187,9 @@
 
 .card-text {
     font-size: 20px;
+    font-weight: 400;
     line-height: 1.2;
+    text-align: left;
 
 }
 
