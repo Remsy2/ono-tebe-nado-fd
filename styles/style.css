@@ -5,18 +5,21 @@
     padding: 92px 50px 96px;
 }
 
-.header-active-button-nocircle,
-.header-menu-link {
+.header-menu-item,
+.link-active {
+    list-style: none;
     text-decoration: none;
 }
 
-.header-active-button-nocircle {
-    list-style: none;
+.link-active {
+    text-decoration: none;
 }
+
 
 .header-logo img {
     display: block;
-    width: 130px;
+    width: 148px;
+    height: 105px;
 }
 
 .header-menu-list {
@@ -24,6 +27,10 @@
     gap: 32px;
     list-style: circle;
     font-size: 18px;
+}
+
+.menu-link {
+    text-decoration: underline;
 }
 
 .header-address {
@@ -35,10 +42,6 @@
     justify-self: end;
     font-size: 18px;
     line-height: 1.35;
-}
-
-.header-address-text {
-    text-decoration: none;
 }
 
 /* Детальная стилизация обложки страницы (входной секции) */
@@ -53,20 +56,22 @@
     position: absolute;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
 }
 
 .cover-title {
     position: relative;
+    z-index: 2;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 16px;
     color: #fff;
     font-size: 100px;
     font-weight: 700;
     line-height: 1.15;
     text-transform: uppercase;
     letter-spacing: 0.3em;
-    z-index: 2;
+    margin: 0;
 }
 
 .cover-text {
@@ -79,14 +84,20 @@
 
 .cover-row-center {
     text-align: center;
+    padding-left: 32px;
+    padding-top: 6px;
 }
 
 .cover-row-right {
-    text-align: right;
+    padding-left: 616px;
+    padding-top: 4px;
 }
 
 .cover-description {
     position: absolute;
+    left: 50px;
+    right: 50px;
+    bottom: 44px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -114,15 +125,16 @@
 /* Выполнение детальной стилизации секции с карточками */
 
 .lots {
-    padding: 180px 50px;
+    padding: 181px 25px 0 25px;
 }
 
 .lots-heading {
+    color: #000;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 27px;
-    padding-left: 0;
+    padding-left: 40px;
+    padding-bottom: 27px;
 }
 
 .lots-card-list {
@@ -149,8 +161,10 @@
     height: 100%;
     color: #fff;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    flex-direction: column;
+    width: 334px;
+    min-height: 596px
 }
 
 .card-type-film {
@@ -166,13 +180,12 @@
 }
 
 .card-title {
-    position: relative;
     font-size: 22px;
     font-weight: 700;
     line-height: 1.2;
     text-decoration: underline;
     text-transform: uppercase;
-    z-index: 2;
+    padding: 50px 40px 0px 40px;
 }
 
 .card-text {
@@ -180,8 +193,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
-    padding: 0 40px 48px;
-    z-index: 2;
+    padding: 0 40px 50px 40px;
 }
 
 .card-title,
@@ -192,7 +204,7 @@
 
 .more-link {
     display: block;
-    margin-top: 32px;
+    margin: 33px 40px;
     font-size: 20px;
     padding-left: 0;
 }
@@ -204,8 +216,9 @@
     display: grid;
     grid-template-columns: 334px 1fr;
     gap: 25px;
-    padding: 0 50px;
+    padding: 0 24px;
     align-items: start;
+    margin: 148px 0 0 0;
 }
 
 .about-logo {
@@ -257,9 +270,7 @@
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 210px 50px 90px;
-    gap: 20px;
-    align-items: flex-start;
+    padding: 186px 50px 90px;
 }
 
 .footer-address {
@@ -267,7 +278,7 @@
     flex-direction: column;
     align-items: flex-start;
     font-style: normal;
-    max-width: 240px;
+    max-width: 260px;
     justify-self: start;
     font-size: 18px;
     line-height: 1.35;
@@ -286,18 +297,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 0;
 }
 
 .footer-line {
     text-decoration: none;
-}
-
-.footer-menu-item {
-    text-align: center;
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
 }
 
 /* Соцсети */
