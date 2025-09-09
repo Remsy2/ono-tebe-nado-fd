@@ -54,8 +54,9 @@
     inset: 0;
     background-color: rgba(0, 0, 0, 0.6);
 }
+
 .cover-title {
-    position:relative;
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -65,7 +66,7 @@
     line-height: 1.15;
     text-transform: uppercase;
     letter-spacing: 0.3em;
-    z-index:2;
+    z-index: 2;
 }
 
 .cover-text {
@@ -73,7 +74,7 @@
 }
 
 .cover-row-left {
-    text-align:left;
+    text-align: left;
 }
 
 .cover-row-center {
@@ -85,11 +86,11 @@
 }
 
 .cover-description {
-    position:absolute;
+    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index:2;
+    z-index: 2;
 }
 
 .cover-description-text {
@@ -117,20 +118,20 @@
 }
 
 .lots-heading {
-        font-size: 40px;
-        font-weight: 700;
-        text-transform: uppercase;
-        margin-bottom: 27px;
-        padding-left: 0;
-    }
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+    padding-left: 0;
+}
 
 .lots-card-list {
     list-style: none;
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 25px;
 }
 
 .lots-card-list-item {
@@ -165,7 +166,7 @@
 }
 
 .card-title {
-    position:relative;
+    position: relative;
     font-size: 22px;
     font-weight: 700;
     line-height: 1.2;
@@ -175,11 +176,11 @@
 }
 
 .card-text {
-    position:relative;
+    position: relative;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
-    padding:0 40px 48px;
+    padding: 0 40px 48px;
     z-index: 2;
 }
 
@@ -191,9 +192,9 @@
 
 .more-link {
     display: block;
-    margin-top:32px;
+    margin-top: 32px;
     font-size: 20px;
-    padding-left:0;
+    padding-left: 0;
 }
 
 
@@ -204,7 +205,7 @@
     grid-template-columns: 334px 1fr;
     gap: 25px;
     padding: 0 50px;
-    align-items:start;
+    align-items: start;
 }
 
 .about-logo {
@@ -242,8 +243,8 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    font-size:20px;
-    line-height:1.35;
+    font-size: 20px;
+    line-height: 1.35;
 }
 
 .about-paragraph {
@@ -259,58 +260,58 @@
     padding: 210px 50px 90px;
     gap: 20px;
     align-items: flex-start;
+}
 
-    .footer-address {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        font-style: normal;
-        max-width: 240px;
-        justify-self: start;
-        font-size: 18px;
-        line-height: 1.35;
-    }
+.footer-address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-style: normal;
+    max-width: 240px;
+    justify-self: start;
+    font-size: 18px;
+    line-height: 1.35;
+}
 
-    .footer-menu {
-        justify-self: center;
-    }
+.footer-menu {
+    justify-self: center;
+}
 
-    .footer-menu-list {
-        list-style: none;
-        text-align: center;
-        font-size: 18px;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-    }
+.footer-menu-list {
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
 
-    .footer-line {
-        text-decoration: none;
-    }
+.footer-line {
+    text-decoration: none;
+}
 
-    .footer-menu-item {
-        text-align: center;
-        font-size: 18px;
-        display: flex;
-        flex-direction: column;
-    }
+.footer-menu-item {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
 
-    /* Соцсети */
+/* Соцсети */
 
-    .footer-social-list {
-        display: flex;
-        gap: 48px;
-        list-style: none;
-        justify-self: end;
-    }
+.footer-social-list {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    justify-self: end;
+}
 
-    .footer-social-item img {
-        display: block;
-        width: 48px;
-        height: 48px;
-    }
+.footer-social-item img {
+    display: block;
+    width: 48px;
+    height: 48px;
 }
 
