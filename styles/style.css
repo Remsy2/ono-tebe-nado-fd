@@ -173,15 +173,15 @@
 
 
 .card-type-film {
-    background: url('../images/card-lot-01.jpg');
+    background-image: url('../images/card-lot-01.jpg');
 }
 
 .card-type-book {
-    background: url('../images/card-lot-02.jpg');
+    background-image: url('../images/card-lot-02.jpg');
 }
 
 .card-type-picture {
-    background: url('../images/card-lot-03.jpg');
+    background-image: url('../images/card-lot-03.jpg');
 }
 
 .card-title {
@@ -210,7 +210,7 @@
 
 .more-link {
     display: block;
-    margin: 33px 40px;
+    margin: 28px 40px;
     font-size: 20px;
     width: fit-content;
 }
@@ -223,7 +223,7 @@
     gap: 25px;
     padding: 0 24px;
     align-items: start;
-    margin: 148px 0 0 0;
+    margin: 152px 0 0 0;
 }
 
 .about-logo {
